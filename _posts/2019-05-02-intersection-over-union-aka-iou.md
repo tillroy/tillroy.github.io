@@ -190,4 +190,4 @@ It works as expected. `Example 1` returns 1/4 of the bbox_a as well as `Example 
 
 I hope this notes could help someone. I have to say that this is my first try in direction of writing posts.
 
-Thank you for reading and see you next blog post :blush:
+Thank you for reading and see you next blog post ;)

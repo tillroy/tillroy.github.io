@@ -186,7 +186,7 @@ iou(bbox_a, bbox_b)
 
 ```
 
-It works as expected. `Example 1` returns 1/4 of the bbox_a as well as `Example 2` because of we use it with the same bbox. It works even with negative values as you can see `Example 4` and `Example 5` have the same intersection area as well as IoU value
+It works as expected. `Example 1` returns 1/4 of the bbox_a as well as `Example 2` because we use it with the same bbox. It works even with negative values as you can see `Example 4` and `Example 5` have the same intersection area as well as IoU value
 
 I hope this notes could help someone. I have to say that this is my first try in direction of writing posts.
 

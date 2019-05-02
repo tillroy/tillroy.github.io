@@ -1,8 +1,13 @@
-## Welcome to GitHub Pages
+# Welcome to tillroy blog
 
-You can use the [editor on GitHub](https://github.com/tillroy/tillroy.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+```python
+def tillroy(data:any)->#&?:
+    knowledge = learn(data)
+    results = work(knowledge)
+    sleep()
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    tillroy(results)
+```
 
 ### Posts
 <ul>
@@ -14,34 +19,10 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 </ul>
 
 
-### Markdown
+### About project
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Hi there! Here I will be posting some notes I've found interesting during my education. Currently I am very interested in AI and hope these notes could be helpful for someone.
 
-```markdown
-Syntax highlighted code block
+### Contacts
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tillroy/tillroy.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+email: roman.peresoliak@gmail.com

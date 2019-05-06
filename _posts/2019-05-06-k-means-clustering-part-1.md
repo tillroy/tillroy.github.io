@@ -289,12 +289,12 @@ class KmeansClustering(object):
                 self.distances[:,k_ind] = kernel_distances
                 self.clusters = np.argmin(self.distances, axis=1)
 
-            if (prev_clusters == self.clusters).all():
-                break
-
             for k_ind in range(self.k):
                 cluster_data = self.data[self.clusters == k_ind]
                 self.kernels[k_ind] = np.mean(cluster_data, axis=0)
+
+            if (prev_clusters == self.clusters).all():
+                break
 
             prev_clusters = self.clusters
 ```

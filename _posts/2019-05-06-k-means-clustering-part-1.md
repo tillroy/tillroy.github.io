@@ -299,4 +299,4 @@ class KmeansClustering(object):
             prev_clusters = self.clusters
 ```
 
-We define K-means classifier in this section and check how it works, let continue in Part 2.
+We define K-means classifier in this section and check how it works, let continue in [Part 2]({% post_url 2019-05-07-k-means-clustering-part-2 %}).

@@ -7,25 +7,25 @@ tags: [kmeans, k-means]
 
 Sooner or later you will find K-mean clustering algorithm during traveling Data Science, Machine Learning of Artificial intelligent fields. This is one of the simples unsupervised learning algorithms. You could wondering how does K-Means algorithm work. Let check it backed and create it from scratch.
 
-You could find a lot of examples all around the Internet, because of that let build this algorithm in a bit different way, when it could helps us during implementation of YOLO algorithm. At this time let define it as separate class rather than just a function:
+You could find a lot of examples all around the Internet, because of that let build this algorithm in a bit different way, when it could helps us during implementation of YOLO algorithm, for example. At this time let define it as separate class rather than just a function. Here is abstract structure we are gonna to use:
 
 ```python
 class KmeansClustering(object):
     def __init__(self):
         pass
 
-    def train(self, data):
+    def train(self):
         # calculate kernels values
         pass
 
     def fit(self, sample):
-        compare new value and assign it to the kernel class
+        # compare new value and assign it to the kernel class
         pass
 ```
 
 The main idea behind class definition that we can save trained results and use them later.
 
-## K-Means background
+## K-means background
 
 This algorithm allows us assign split all data into defined amount of groups or clusters. I supposes that `K` in naming comes from `kernel` which is main conceptual idea behind this algorithm. Basically each cluster has it's own kernel(value) which represent all cluster.
 
@@ -47,7 +47,7 @@ Model | Weight
 
 > Note: data taken from [here](https://cars.lovetoknow.com/List_of_Car_Weights)
 
-```
+```python
 car_weights = np.array([
 [3190], [3042], [3572], [2888], [3777], [3208], [3393], [4652], [3495], [3208], [4344], [2617], [5949], [2535], [4756], [2396], [2701], [3084], [3102], [3600], [3756], [3300], [3496], [3668], [3780], [3682], [3814], [2768], [3540], [2354], [2935], [4037], [1808], [3323], [3968], [3540], [3295], [4233], [3532], [2512], [4646], [4742], [4047], [3256], [6547], [4553], [3950], [4004], [4029], [3393], [3541], [4979], [4740], [3941], [4398], [4470], [2553], [3109], [4396], [4230]
 ])
@@ -59,9 +59,9 @@ print(cars_mean)
 
 This one number does not make much sense, but we could be sure for example that this weight value will be bigger that average humans weight and lover than average tracks weight. So this value gives us some generalized value for all category(cluster) -- cars. Exactly this value we should treat as cluster `kernel`.
 
-> Note: let use column vector instead of simple list, it allows us use more features in feature not just one car werght(e.g)
+> Note: let use column vector instead of simple list, it allows us use more features in feature not just one car weight(e.g length, height)
 
-In this example we have only one cluster, so it was easy. We just calculate mean of all data values. What if we want to define some specific subcategories for car dataset we already have. Of course we could explore the data or calculate some statistics, but we also could use the K-means. Let use the next car classes:
+In this example we have only one cluster, so it was easy. We just calculate mean of all data values. What if we want to define some specific subcategories for car dataset we already have. Of course we could explore the data or calculate some statistics, but we also could use the K-means. Let use the next car classes from the same [post](https://cars.lovetoknow.com/List_of_Car_Weights):
 
 Car Class | Weight
 Compact car | 2,979 pounds
@@ -71,22 +71,22 @@ Compact truck or SUV | 3,470 pounds
 Midsize truck or SUV | 4,259 pounds
 Large truck or SUV | 5,411 pounds
 
-This data already calculated and taken from post. But what if we don't have this weights values, but we know only number of classes we want to split our dataset. For example, from table above we want to define ***6*** car classes based on our data. K-means could calculate for us 6 means which represent each car class in all dataset.
+This data has been already calculated. But what if we don't have this weights values, and we know only number of classes we want to split our dataset to. For example, from table above we want to define ***6*** car classes based on our data. K-means could calculate for us 6 means which represent each car class in all dataset.
 
 > Important: K-mean requires the number of clusters the dataset should be split to as input!
 
 ### What does K-means do?
 
 1. take amount of clusters we want as input
-2. initialize clusters kernels, also known as cluster centroids(usialy randompy defined or taken from dataset)
+2. initialize clusters kernels, also known as cluster centroids(usialy randomly defined or taken from dataset)
 3. calculating distance from each kernel to each data value(distance function could be different)
 4. split data into clusters based on distance metric(assign data to the cluster with smallest distance metric)
 5. calculate some generalized value for each cluster(in most cases it is mean value of the cluster)
-6. repeat everything until some action occur(it could be number of iterations, some treshold in kernel changing from one iteration to another)
+6. repeat everything until some action occur(it could be number of iterations, some threshold in kernel changing from one iteration to another)
 
 ### How to build K-means from scratch?
 
-Let's take the class template from the very beginign of the post and add there a bit of logic:
+Let's take the class template from the very beginning of the post and add there a bit of logic:
 
 ```python
 class KmeansClustering(object):
@@ -230,7 +230,7 @@ print(kmc.kernels)
    [3564.54545455]]
 ```
 
-We run this process 100 times but get the same results as ruining it only 3 times. Thats is right after surtein amount of iterations kernels are not changed any more, it is common practice to check kernel values during the iterations and if they are not changing stop the calculation process. But first of all let check what we will get for ***6*** classes.
+We run this process 100 times but get the same results as ruining it only 3 times. Thats is right after certain amount of iterations kernels are not changed any more, it is common practice to check kernel values during the iterations and if they are not changing stop the calculation process. But first of all let check what we will get for ***6*** classes.
 
 ```python
 ->[[2471.55555556]

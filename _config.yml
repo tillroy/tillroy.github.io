@@ -1,6 +1,6 @@
 theme: jekyll-theme-modernist
 
-theme_skin: caramic # blue turquoise green berry orange ceramic
+theme_skin: ceramic # blue turquoise green berry orange ceramic
 
 # Sass/SCSS
 sass:

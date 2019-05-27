@@ -1,0 +1,3 @@
+![Tux, the Linux mascot](/assets/images/avatar.jpg)
+
+bla bla bla...

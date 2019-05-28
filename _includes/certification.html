@@ -18,9 +18,11 @@
 
   {% for certificate in certification.certificates %}
   <div class="item">
-    <div class="publication-title">{{ certificate.title }}</div>
-    <div class="publication-authors">{{ certificate.authors }}</div>
-    <div class="publication-conference">{{ certificate.conference }}</div>
+    <div class="publication-title">
+      <a href="{{ certificate.link }}">{{ certificate.title }}</a>
+    </div>
+    <div class="publication-authors">{{ certificate.provider }}</div>
+    <div class="publication-conference">{{ certificate.date }}</div>
   </div><!--//item-->
   {% endfor %}
 

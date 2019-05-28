@@ -167,16 +167,19 @@ certification:
 
     certificates:
       - title: Convolutional Neural Networks
-        authors: Coursera
-        conference: Addison-Wesley, 1968
+        link: "https://www.coursera.org/account/accomplishments/verify/33HH7F5A7LBT"
+        provider: Coursera
+        date: Addison-Wesley, 1968
 
       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+        link: "#"
+        provider: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        date: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
       - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        link: "#"
+        provider: Edgar T. Irons
+        date: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency

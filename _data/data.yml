@@ -137,7 +137,7 @@ projects:
         link: "https://github.com/tillroy/container"
         tagline: "Developed for use with Scrapy projects. Implements rule-based container definition that allows check/coerce scraped data during the run time."
 
-      - title: Ucrainian Cadastre Marckup Language (UCML)
+      - title: Ukrainian Cadastre Markup Language (UCML)
         link: "#"
         tagline: "Markup Language for exchange files and digital documents in cadastre system of Ukraine based on XML tool set (research)."
 

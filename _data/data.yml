@@ -126,7 +126,7 @@ projects:
 
       - title: SpaceCad
         link: "#"
-        tagline: "Mainly developed during the research of Urban cadastre. Implemented as JS library for rendering 3d maps in web, based on pure WebGL. This project inherit a lot of ideas from MapBox project and allows to style map at frontend."
+        tagline: "Mainly developed during the research of Urban cadastre. Implemented as JS library for rendering 3D maps in web, based on pure WebGL. This project inherits a lot of ideas from MapBox project and allows to style map at frontend."
 
       - title: SpaceCad server
         link: "#"
@@ -191,23 +191,40 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Numpy & Pandas & Matplotlib & Jupyter
+        level: 87%
 
-      - name: Angular
-        level: 98%
+      - name: Falcon
+        level: 90%
 
-      - name: HTML5 & CSS
+      - name: Scrapy & Scrapyd & Splash
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Tensorflow & Scikit-learn
+        level: 50%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Javascript
+        level: 70%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: Linux & Backend management & Automation
+        level: 80%
+
+      - name: REST API
+        level: 95%
+
+      - name: GeoServer
+        level: 95%
+
+      - name: Git & Docker
+        level: 95%
+
+      - name: PostgreSQL+PostGIS, MySQL, MongoDB, Neo4J, Sqlite
+        level: 90%
+
+      - name: GIS(ArcGis, Qgis, GRASS)
+        level: 93%
+
+footer:

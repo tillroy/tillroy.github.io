@@ -93,35 +93,28 @@ education:
           - Bullet point
 
 experiences:
-    - role: Python Developer
+    - role: Python Backend Developer
       time: Apr 2018 - Present
       company: 20digital, Leipzig
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Here at 20digital as Python Backend Developer I am working in variety of fields:
+          - Development of dedicated web-source crawler for SEO analysis
+          - Implementation of main on-page SEO algorithms
+          - Integration of third-party services into one service
+          - API develpment
 
-          - Bullet point
-          - Bullet point
-
-    - role: Senior Crawl Enginier
+    - role: Senior Crawl Engineer
       time: Dec 2015 - Dec 2017
       company: Ambience Data, Toronto
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+        As a Crawl Engineer I was responsible for scraping system development that
+        collect air pollution and weather data from variety of web sources.
+        The system is working permanently(24/7) so handling bans and other anti-bot activities
+        is also part of my responsibility at this position. In general I had next tasks:
+          - Architecture and development of effective and stable data scraping
+          - Database management
+          - Data visualization and serving
+          - API development
 
 projects:
     title: Projects

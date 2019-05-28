@@ -14,6 +14,6 @@ title: Isaac Newtons's CV
 
 {% include projects.html %}
 
-{% include publications.html %}
+{% include certification.html %}
 
 {% include skills.html %}

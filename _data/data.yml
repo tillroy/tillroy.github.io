@@ -44,13 +44,17 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      Greetings! I have been working in the field of Data Retrival, Data Scrping
+      and Spatial Data Visualization for over several years.
 
-      Second paragraph if required.
+      I am interested in bunch of technologies which open possibilities for unusual
+      solutions such as Neo4j technology, MongoDB, Twisted, Falcon, JSONSchema
+      WebGL and recently DeepLearning and Machine learning techincks.
+
+      I am excited to face new challenges and interested in further growing.
+      Data Science field is very interesting for me as well as Machine Learning and AI.
+      I have started penetrate this perspective field from GIS world which teached
+      me analysis and work with data.
 
 education:
     - degree: PhD in Technical Science

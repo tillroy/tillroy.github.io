@@ -226,10 +226,10 @@ skills:
         level: 80%
 
       - name: REST API
-        level: 95%
+        level: 90%
 
       - name: GeoServer
-        level: 95%
+        level: 97%
 
       - name: Git & Docker
         level: 95%

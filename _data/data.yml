@@ -161,25 +161,38 @@ publications:
 certification:
     title: Certificates
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      ""
 
     certificates:
       - title: Convolutional Neural Networks
         link: "https://www.coursera.org/account/accomplishments/verify/33HH7F5A7LBT"
         provider: Coursera
-        date: Addison-Wesley, 1968
+        date: Mar 2019
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        provider: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        date: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization"
+        link: "https://www.coursera.org/account/accomplishments/verify/9PNZVX7FN9C4"
+        provider: Coursera
+        date: Dec 2018
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        provider: Edgar T. Irons
-        date: "Comm. ACM 4 (1961), 51–55"
+      - title: Structuring Machine Learning Projects
+        link: "https://www.coursera.org/account/accomplishments/verify/L6YMYWY2HWKW"
+        provider: Coursera
+        date: Dec 2018
+
+      - title: Neural Networks and Deep Learning
+        link: "https://www.coursera.org/account/accomplishments/verify/GG4ZWQMGB2LM"
+        provider: Coursera
+        date: Nov 2018
+
+      - title: Getting and Cleaning Data
+        link: "https://www.coursera.org/account/accomplishments/verify/85UNZ9LYCNRM"
+        provider: Coursera
+        date: Nov 2016
+
+      - title: The Data Scientist’s Toolbox
+        link: "https://www.coursera.org/account/accomplishments/verify/LTSEKUTZVH93"
+        provider: Coursera
+        date: Aug 2016
 
 skills:
     title: Skills &amp; Proficiency

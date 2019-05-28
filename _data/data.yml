@@ -160,8 +160,7 @@ publications:
 
 certification:
     title: Certificates
-    intro: |
-      ""
+    intro:
 
     certificates:
       - title: Convolutional Neural Networks

@@ -113,50 +113,44 @@ experiences:
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      List of side projects or open source libraries.
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Invert Projetion Mapping
+        link: "https://github.com/tillroy/ipm"
+        tagline: "Small library that implements viewing pipeline and used for invert projecting of the camera screen back to the 3D space(ZX plane)."
 
-      - title: DevStudio
+      - title: Container
+        link: "https://github.com/tillroy/container"
+        tagline: "Developed for use with Scrapy projects. Implements rule-based container definition that allows check/coerce scraped data during the run time."
+
+      - title: SpaceCad
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Mainly developed during the research of Urban cadastre. Implemented as JS library for rendering 3d maps in web, based on pure WebGL. This project inherit a lot of ideas from MapBox project and allows to style map at frontend."
 
-      - title: Tempo
+      - title: SpaceCad server
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "Server app for reading spatial data from different sources(Shape-files, PostgreSQL, Neo4j and *.obj files) and publishing in vector tiles format. Server implements vector tile encoding from scratch and used for SpaceCad as backend."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+# publications:
+#     title: Certificates
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#     papers:
+#       - title: The Art of Computer Programming
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
 
-publications:
-    title: Certificates
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#       - title: A syntax directed compiler for Algol 60
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
 certification:
     title: Certificates

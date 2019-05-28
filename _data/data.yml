@@ -32,13 +32,13 @@ sidebar:
         level: Intermidiate
 
     interests:
-      - item: Climbing
+      - item: Gym
         link:
 
       - item: Snowboarding
         link:
 
-      - item: Cooking
+      - item: Running
         link:
 
 career-profile:
@@ -53,7 +53,7 @@ career-profile:
       Second paragraph if required.
 
 education:
-    - degree: PhD in technical science
+    - degree: PhD in Technical Science
       university: Lviv Polytechnic National University
       time: 2014 - Present
       details: |
